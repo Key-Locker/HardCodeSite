@@ -38,10 +38,7 @@ body {
     color: rgb(0, 0, 0);
     padding-bottom: 28px;
 }
-.bg-cloud{
-    background-image: url(clouds2.jpg);
-    color:#212529;
-}
+
 
 /*
 
@@ -84,6 +81,35 @@ header .container {
   position: relative;
   z-index: 2;
 }
+
+.bg-cloud{
+    background: url(clouds2.jpg) repeat-x;
+    color:#212529;
+    height: 100%;
+}
+.container-other {
+    overflow: hidden;
+  }
+  
+.sliding-background {
+    background: url("scrolling-background.png") repeat-x;
+    height: 512px;
+    width: 5076px;
+    animation: slide 60s linear infinite;
+
+}
+
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1692px, 0, 0); /* The image width */
+    }
+}
+
+
+
 /*
 
 Scrollbar (only chrome & safari)
@@ -182,6 +208,7 @@ Scrollbar (only chrome & safari)
     color: black;
     padding: 0 0 4px;
     border-radius: 1px;
+
 }
 .btn:hover {
     border: 2px inset #fff;
