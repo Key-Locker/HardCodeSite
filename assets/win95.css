@@ -89,6 +89,7 @@ header .container {
 }
 .container-other {
     overflow: hidden;
+    position: absolute;
   }
   
 .sliding-background {
@@ -96,7 +97,6 @@ header .container {
     height: 512px;
     width: 5076px;
     animation: slide 60s linear infinite;
-
 }
 
 @keyframes slide {
@@ -258,6 +258,7 @@ CARDS
 .card{
     border: solid;
     border-width: 2px;
+
     border-bottom-color: #424242;
     border-right-color: #424242;
     border-left-color: #fff;
@@ -265,6 +266,9 @@ CARDS
     background: rgb(164, 164, 164);
     color:#212529;
     
+}
+.card-deck{
+    padding-top: 4%;
 }
 .card.square{
     border-radius: 0px;

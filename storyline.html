@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>HardCode</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
-    <meta author="Alex B" />
+    <meta author="Mathew Migliore" />
     <meta property="og:image" content="assets/preview.png" />
 
     <link rel="shortcut icon" href="assets/icons/computer-3.png" type="image/png">
@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="assets/win95.css">
-
 
 </head>
 
@@ -32,25 +31,26 @@
                     <a class="nav-link" href="index.html">HardCode <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Storyline</a>
+                    <a class="nav-link" href="backend.html">Backend</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Demo</a>
+                    <a class="nav-link" href="demo.html">Demo</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         More
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">About</a>
-                        <a class="dropdown-item" href="#">Backend</a>
-                        <a class="dropdown-item" href="#">Music</a>
-                        <a class="dropdown-item" href="#">Contact</a>
+                        <a class="dropdown-item" href="about.html">About</a>
+                        <a class="dropdown-item" href="storyline.html">Storyline</a>
+                        <a class="dropdown-item" href="soundtracks.html">Music</a>
+                        <a class="dropdown-item" href="contact.html">Contact</a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
+    
 
     <!-- Header -->
 
@@ -59,291 +59,74 @@
         <p class="lead">This is a website about my game</p>
         <p>The game is about programming</p>
     </div>
-
+    <div class="container-other">
+        <div class="sliding-background"></div>
+    </div>
     <!-- Not header -->
-
+<!-- 
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-8 text-center">
                 <img src="assets/macbook-mockup.png" class="img-fluid">
             </div>
+
             <div class="col-md-4 my-auto">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="my-0 font-weight-normal mb-1">Personal page</h5>
+                        <h5 class="my-0 font-weight-normal mb-1">Storyline</h5>
                     </div>
                     <div class="card-body">
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li>Portfolio/Landing template</li>
-                            <li>Alex's page</li>
-                            <li>Cloud background</li>
-                            <li>Winamp</li>
-                            <li>It is very cool</li>
+                            <p>
+                                Some spoilers ahead! This is an in depth description
+                                about the storyline of the game. Don't click if you
+                                don't want to know
+                            </p> 
                         </ul>
-                        <a href="personal_page.html" class="btn btn-lg btn-block"><img src="assets/icons/internet_connection_wiz-5.png" class="icon-16"> Okay, go</a>
+                        <a href="storyline.html" class="btn btn-lg btn-block"><img src="assets/icons/internet_connection_wiz-5.png" class="icon-16"> Spoil me</a>
                     </div>
                 </div>
             </div>
+            
         </div>
-    </div>
+    </div> -->
 
     <!-- Bootstrap cards -->
 
-    <div class="container" id="page-content">
-        <div class="card-deck mb-3 text-center">
-            <div class="card square mb-4">
-                <div class="card-header">
-                    <h5 class="my-0 font-weight-normal mb-1">Square card</h5>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>10 users included</li>
-                        <li>2 GB of storage</li>
-                        <li>Email support</li>
-                        <li>Help center access</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <h5 class="my-0 font-weight-normal mb-1">Normal card</h5>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>20 users included</li>
-                        <li>10 GB of storage</li>
-                        <li>Priority email support</li>
-                        <li>Help center access</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-                </div>
-            </div>
-            <div class="card w95 mb-4">
-                <div class="card-header">
-                    <h5 class="my-0 font-weight-normal mb-1"> One color card</h5>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>20 users included</li>
-                        <li>10 GB of storage</li>
-                        <li>Priority email support</li>
-                        <li>Help center access</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-header header-inactive">
-                    <h5 class="my-0 font-weight-normal mb-1">Inactive card</h5>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>30 users included</li>
-                        <li>15 GB of storage</li>
-                        <li>Phone and email support</li>
-                        <li>Help center access</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary" disabled>Contact us</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Forms -->
-
     <div class="container">
-        <div class="card mb-4">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Forms</h4>
+        <div class="card mt-4 mb-4">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Spoilers ahead!</h4>
             </div>
-            <div class="card-body">
-                <form>
-                    <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label"><img src="assets/icons/envelope_closed-1.png" class="icon-16-4"> Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-95" id="inputEmail3">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label"><img src="assets/icons/keys-0.png" class="icon-16-4"> Password</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-95" id="inputPassword3">
-                        </div>
-                    </div>
-                    <fieldset class="form-group">
-                        <div class="row">
-                            <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                            <div class="col-sm-10">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
-                                    </label>
-                                </div>
-                                <div class="form-check disabled">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third disabled radio
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <div class="form-group row">
-                        <div class="col-sm-2">Checkbox</div>
-                        <div class="col-sm-10">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                <label class="form-check-label" for="gridCheck1">
-                                    Example checkbox
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Sign in</button>
-                        </div>
-                    </div>
-                </form>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Briefly:</label>
+                <textarea readonly class="form-95" id="exampleFormControlTextarea1" rows="10">Hello, and welcome to this brief introduction to the HardCode game! This game is about programming, as the above says, but I wanted to draw people in with a cool vibe, synthy soundtracks, and an awesome storyline. When you begin the game, you must choose one of four real programming languages (C#, C++, Python, & Java), then you are set off into a dark and dingy city where you can interact with people, get hired for algorithms and functions, make money and gain experience (literally). As you progress, your experience in-game increases for your chosen language, and the contracts become more difficult. Once you make enough money, you are able to purchase the other three languages, and continue along the same process. There are three other cities you are able to unlock: the Math City, Game City, Data City, and the one you begin in which is the Main City. Each of those cities have jobs in accordance with their names. Each city has four mini bosses, one per language, which are timed algorithms (these like are in real life interviews). Each city other than Main also has one final boss. Each boss challenges you to beat me, the games creator, in programming. An example of this is in the game city, I create an algorithm to play chess, you must create one to beat mine. 
+
+These are the very general concepts of how the game functions, but there is a massive storyline running along with this as it is happening. Please read the “Not brief” version of the storyline for more!
+                    
+                    </textarea>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-10">
+                    <a href="storylinefull.html" class="btn btn-primary">Not so briefly</a>
+                </div>
+              </div>
+            </form>
+              </div>
             </div>
-        </div>
     </div>
-
-    <!-- Icons -->
-
-    <div class="container">
-        <div class="card mb-4">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Icons</h4>
-            </div>
-            <div class="card-body">
-                <p>Here we have 256-color icons from Windows 98. In png. <br>
-                    All icons can be viewed at <a href="https://win98icons.alexmeub.com/"> <img src="assets/icons/search_web-1.png" class="icon-16-4"> win98icons.alexmeub.com</a></p>
-                <img src="assets/icons/msie1-4.png">
-                <img src="assets/icons/laptop_small-0.png">
-                <img src="assets/icons/help_book_cool-1.png">
-            </div>
-        </div>
-    </div>
-
-    <!-- Progress -->
-
-    <div class="container">
-        <div class="card mb-4">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Progress</h4>
-            </div>
-            <div class="card-body">
-                <p>Normal progress bar</p>
-                <div class="progress card">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <br>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <br>
-                <div class="progress">
-                    <div class="progress-bar " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <br>
-                <p>Class progress-bar-blocks</p>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-blocks" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="card mb-4">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Elder scroll</h4>
-            </div>
-            <div class="card-body windows-scrollbar" style="overflow-y: scroll; height:100px;">
-                <h5>And modal:</h5>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                    Launch demo modal
-                </button>
-                <p>Click button to show modal.</p>
-            </div>
-        </div>
-    </div>
-
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="assets/confused_travolta.gif" class="img-fluid">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- OTHER-->
-    <div class="container">
-        <div class="card mb-4">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Other things</h4>
-            </div>
-            <div class="card-body">
-                
-                <a class="btn btn-primary " href="video-background.html">
-                    <img src="assets/icons/video_-0.png" class="icon-16"> Video background
-                </a>
-                <p>Page with video background.</p>
-				
-				<a class="btn btn-primary " href="cloud.html">
-                    <img src="assets/icons/world_network_directories-1.png" class="icon-16"> Cloud
-                </a>
-                <p>Cloud hosting landing page template.</p>
-				
-				<a class="btn btn-primary " href="mobile.html">
-                    <img src="assets/icons/laptop_infrared-2.png" class="icon-16"> Mobile
-                </a>
-                <p>Mobile app landing page template.</p>
-				
-
-            </div>
-        </div>
-    </div>
-
-
 
     <!-- Footer -->
     <footer class="taskbar">
         <div class="row" style="margin-right: 0px;">
             <div class="col-8">
-                <a href="//alex-b.me" class="btn start-button"><img src="assets/icons/users-1.png" class="icon-16">Author</a>
-                <a href="https://github.com/AlexBSoft/win95.css" class="btn start-button"><img src="assets/icons/directory_folder_options-5.png" class="icon-16"> GitHub</a>
+                <a href="personal_page.html" class="btn start-button"><img src="assets/icons/users-1.png" class="icon-16">Author</a>
+                <a href="https://github.com/MathewMigliore/HardCodeSite" class="btn start-button"><img src="assets/icons/directory_folder_options-5.png" class="icon-16"> GitHub</a>
             </div>
-            <div class="col-4 time">By Alex B</div>
+            <div class="col-4 time">WIN98 TEMPLATE CREATED BY: Alex B</div>
         </div>
 
     </footer>
