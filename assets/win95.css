@@ -82,14 +82,18 @@ header .container {
   z-index: 2;
 }
 
+.hardcode-header{
+    color: rgb(222, 222, 222);
+}
+
 .bg-cloud{
     background: url(clouds2.jpg) repeat-x;
     color:#212529;
     height: 100%;
 }
 
-.bg-cloud{
-    background: url(clouds2.jpg) repeat-x;
+.bg-nebula{
+    background: url(PurpleNebula.png) repeat;
     color:#212529;
     height: 100%;
 }
