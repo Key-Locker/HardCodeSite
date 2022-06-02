@@ -83,7 +83,7 @@ header .container {
 }
 
 .hardcode-header{
-    color: rgb(222, 222, 222);
+    color: rgb(255, 255, 255);
 }
 
 .bg-cloud{
@@ -108,6 +108,14 @@ header .container {
     height: 512px;
     width: 5076px;
     animation: slide 60s linear infinite;
+}
+
+.sliding-background-absolute {
+    background: url("scrolling-background.png") repeat-x;
+    height: 512px;
+    width: 5076px;
+    animation: slide 60s linear infinite;
+    position: absolute;
 }
 
 @keyframes slide {
