@@ -75,20 +75,28 @@
                     <h5 class="my-0 font-weight-normal mb-1">Soundtracks</h5>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">Unfinished </h1>
+                    <h1 class="card-title pricing-card-title">The music for my game! <br><small class="text-muted">Look for the music player and take a listen</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <p>
-                            This part of the website is unfinished
+                            I am not only creating each and every soundtrack for this videogame, I am also learning sound design & synthesis to create the sounds from scrach as well!
+                        </p>
+                        <br>
+                        <p>
+                            
                         </p>
                     </ul>
-                    <a href="storyline.html" class="btn btn-lg btn-block btn-primary">:(</a>
+                    <a href="soundtracks.html" class="btn btn-lg btn-block btn-primary">My music website (for when its done)</a>
                 </div>
             </div>
 
 
         </div>
     </div>
-
+    <div class="col-md-6 text-center">
+        <div id="app" style="min-height: 400px">
+            <!-- Webamp will attempt to center itself within this div -->
+        </div>
+    </div>
     <!-- Footer -->
     <footer class="taskbar">
         <div class="row" style="margin-right: 0px;">
@@ -106,5 +114,19 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+<script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "Mathew Migliore",
+                    title: "On Game Load"
+                },
+                url: "assets/Music/SynthGuitar.mp3",
+                duration: 24
+            }],
+        }).renderWhenReady(document.getElementById('app'));
 
+    </script>  
 </html>
